@@ -22,7 +22,7 @@ function showLogo() {
  | |\\  | (_) | (_| |.___/ / |   
  \\_| \\_/\\___/ \\__,_|\\____/|_|   
                                 
- Hyperlane Node Manager — скрипт для автоматики @Nod3r
+ Kite Ai Manager — скрипт для автоматики @Nod3r
 `));
 }
 
