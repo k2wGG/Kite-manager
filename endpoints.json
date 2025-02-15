@@ -1,0 +1,24 @@
+{
+  "https://deployment-uu9y1z4z85rapgwkss1muuiz.stag-vxzy.zettablock.com/main": {
+    "agent_id": "deployment_UU9y1Z4Z85RAPGwkss1mUUiZ",
+    "name": "Ассистент Kite AI",
+    "questions": [
+      "Как твои дела?",
+      "Сколько у тебя строк на ответ?",
+      "Привет, ты понимаешь меня?"
+    ]
+  },
+  "https://deployment-ecz5o55dh0dbqagkut47kzyc.stag-vxzy.zettablock.com/main": {
+    "agent_id": "deployment_ECz5O55dH0dBQaGKuT47kzYC",
+    "name": "Ассистент по криптовалютным ценам",
+    "questions": [
+      "Каково текущее настроение рынка по Solana?",
+      "Проанализируйте движение цены Bitcoin за последний час"
+    ]
+  },
+  "https://deployment-sofftlsf9z4fya3qchykaanq.stag-vxzy.zettablock.com/main": {
+    "agent_id": "deployment_SoFftlsf9z4fyA3QCHYkaANq",
+    "name": "Анализатор транзакций",
+    "questions": []
+  }
+}
