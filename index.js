@@ -223,8 +223,7 @@ class WalletSession {
     console.log(`${chalk.cyan('🔄 Всего взаимодействий:')} ${chalk.green(this.statistics.totalInteractions)}`);
     console.log(`${chalk.cyan('✅ Успешно:')} ${chalk.green(this.statistics.successfulInteractions)}`);
     console.log(`${chalk.cyan('❌ Неудачно:')} ${chalk.red(this.statistics.failedInteractions)}`);
-    console.log(`${chalk.cyan('⏱️ Последнее взаимодействие:')} ${chalk.yellow(this.statistics.lastInteractionTime?.toISOString() || 'Никогда')}`);
-
+        console.log(`${chalk.cyan('⏱️ Последнее взаимодействие:')} ${chalk.yellow(this.statistics.lastInteractionTime ? this.statistics.lastInteractionTime.toLocaleString('ru-RU', { timeZone: 'Europe/Moscow', hour12: false }) : 'Никогда')}`);
     console.log(`\n${chalk.cyan('🤖 Взаимодействия с агентами:')}`);
     for (const [agentName, count] of Object.entries(this.statistics.agentInteractions)) {
       console.log(`   ${chalk.yellow(agentName)}: ${chalk.green(count)}`);
